@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+
+	<head>
+		<title>4-CSS的三种声明方式</title>
+		<meta charset="UTF-8"/>
+
+		<!--外部样式表，建立连接-->
+		<link rel="stylesheet" href="div_3.css"/>
+
+		<!--这是内部样式-->
+		<style>
+
+			/* ID选择器 */
+			#div_green{
+				width:300px;
+				height:300px;
+				background-color:green;
+			}
+
+		</style>
+
+	</head>
+
+	<body>
+
+		<!--行内样式(行间样式)-->
+		<div style="width:200px;height:200px;background-color:yellow;">
+		</div>
+
+		<div id="div_green">
+		</div>
+
+		<div id="div_red">
+		</div>
+
+	</body>
+
+</html>
